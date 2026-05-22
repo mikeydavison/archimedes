@@ -53,6 +53,8 @@ Roll the Stage 5 findings up into SEI-style **risks**, **non-risks**, and **risk
 ### 7. Deliver feedback
 Render findings using `assets/review-template.md`. Each analysis reference defines its own per-finding line format and routes findings into the appropriate template sections (Strengths, Blockers, Concerns, Open Questions, Suggestions). The Stage 6 outputs populate the Risk Themes section, the Non-Risks subsection of Strengths, and the Risks & Themes subsection in Detailed Findings.
 
+After delivering the rendered review in-conversation, always ask the architect whether they'd like the output saved as a markdown file in the current working directory. Prompt for a filename, but suggest a sensible default derived from the artifact under review (e.g. `archimedes-review-<artifact-slug>-<YYYY-MM-DD>.md`). If they accept, write the file with the Write tool and confirm the path. If they decline, continue to Stage 8 without writing.
+
 ### 8. Iterate
 After delivering the review, stay in the conversation. Architects will push back, clarify, or revise. Update your assessment as new information arrives. Don't defend a critique that the architect has just invalidated with new context.
 
