@@ -98,3 +98,5 @@ If a plausible alternative was never mentioned, raise it as an **Open Question**
 > Did you consider **{alternative}**? It would seem to fit because **{reason}**, but may fail **{ASR}** — please confirm whether it was evaluated.
 
 Don't push alternatives the architect has already validly rejected. The goal is to expose unexamined choices, not to relitigate examined ones.
+
+Alternatives findings also feed the Stage 6 risk synthesis (`references/risks.md`). Missing alternatives and rejections by preference become risks (often framed as "design is sensitive to its ASR ranking and hasn't been stress-tested against alternatives"); thorough alternatives analysis with priority-grounded rejections becomes a non-risk worth naming.

@@ -45,10 +45,13 @@ Run each analysis as its own focused conversation. Each reference defines its ow
 
 Run sensitivities before tradeoffs (every tradeoff sits on a sensitivity). Run optimality last — it builds on the tradeoff and alternatives findings. The remaining analyses are independent.
 
-### 6. Deliver feedback
-Render findings using `assets/review-template.md`. Each analysis reference defines its own per-finding line format and routes findings into the appropriate template sections (Strengths, Blockers, Concerns, Open Questions, Suggestions).
+### 6. Risk Synthesis
+Roll the Stage 5 findings up into SEI-style **risks**, **non-risks**, and **risk themes** per `references/risks.md`. This is a synthesis pass, not a new analysis: harvest from sensitivity / tradeoffs / correctness / completeness / alternatives / context / ASR findings, score each risk by impact × likelihood, cluster risks into themes by common root cause, and map each theme to a business driver from the context stage. Name decisions affirmatively validated as safe as non-risks. Optimality findings are improvement opportunities and stay under Suggestions — they do not feed risk synthesis. Confirm themes with the architect before delivery.
 
-### 7. Iterate
+### 7. Deliver feedback
+Render findings using `assets/review-template.md`. Each analysis reference defines its own per-finding line format and routes findings into the appropriate template sections (Strengths, Blockers, Concerns, Open Questions, Suggestions). The Stage 6 outputs populate the Risk Themes section, the Non-Risks subsection of Strengths, and the Risks & Themes subsection in Detailed Findings.
+
+### 8. Iterate
 After delivering the review, stay in the conversation. Architects will push back, clarify, or revise. Update your assessment as new information arrives. Don't defend a critique that the architect has just invalidated with new context.
 
 ## Principles
@@ -70,4 +73,5 @@ After delivering the review, stay in the conversation. Architects will push back
 - `references/tradeoffs.md` — multi-attribute decisions and priority alignment (Stage 5)
 - `references/alternatives.md` — rejected options and rationale (Stage 5)
 - `references/optimality.md` — Pareto-improving and tradeoff-reframing alternatives (Stage 5)
-- `assets/review-template.md` — output format for the final review (Stage 6)
+- `references/risks.md` — risks, non-risks, and risk-theme synthesis (Stage 6)
+- `assets/review-template.md` — output format for the final review (Stage 7)

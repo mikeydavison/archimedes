@@ -98,3 +98,5 @@ ASR findings shape every downstream analysis. Route into `assets/review-template
 For each gap, write it as:
 
 > **{ASR or category}** — **{absent / unquantified / unprioritized / unverifiable}**. Why it matters: **{which downstream analysis depends on it}**. Suggested resolution: **{quantify, rank, add the requirement, or specify verification method}**.
+
+ASR findings also feed the Stage 6 risk synthesis (`references/risks.md`). Unquantified or unprioritized ASRs surface there as meta-risks — the design isn't reviewable for tradeoff appropriateness until they're resolved.

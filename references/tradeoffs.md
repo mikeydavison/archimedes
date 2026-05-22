@@ -139,3 +139,5 @@ For each tradeoff, write it as:
 > **{Decision / knob}** improves **{attribute A}** ({value gained}) at the cost of **{attribute B}** ({value given up}). Priority order: **A > B** / **B > A** / **equal / unset**. Verdict: **aligned / misaligned / within tolerance / unjudgeable**. Chosen because **{higher-priority requirement / driver}**. Reversibility: **{cheap / expensive / one-way}**.
 
 Group related tradeoffs (e.g., several decisions that all spend latency to buy availability) so the architect can see the cumulative bill on the sacrificed attribute. A series of individually-aligned tradeoffs can still add up to push the conceded attribute past its NFR target — call that out explicitly.
+
+Tradeoff findings also feed the Stage 6 risk synthesis (`references/risks.md`). Misaligned tradeoffs and conceded sides outside their budget become risks; aligned tradeoffs with quantified concessions inside budget become non-risks. Cumulative-bill blowouts on a shared conceded attribute are a classic theme pattern.

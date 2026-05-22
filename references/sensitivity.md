@@ -94,3 +94,5 @@ Fold findings into the main review under **Concerns** or **Blockers** in `assets
 > **{Parameter}** drives **{quality attribute}** ({target}). The design holds while **{parameter} stays {within threshold}**; outside that, **{what breaks}**. Currently **{monitored / unmonitored}**, with response **{action / none}**.
 
 Group sensitivities that share an upstream cause so the architect can address the root, not the symptoms.
+
+Sensitivity findings also feed the Stage 6 risk synthesis (`references/risks.md`). Unmonitored sensitivities and brittle parameters become risks; sensitivities with stated thresholds, monitoring, and defined responses become non-risks.

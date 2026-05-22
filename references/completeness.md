@@ -101,3 +101,5 @@ For each ASR finding, write it as:
 For each inverse finding (decision without an ASR), write it as:
 
 > **{Decision}** — no clear ASR backing. Likely **{gold-plating / hidden requirement / vendor inertia}**. Suggested resolution: **{remove / add the missing ASR / justify against an existing ASR}**.
+
+Completeness findings also feed the Stage 6 risk synthesis (`references/risks.md`). Partial, not-satisfied, and implicit ASR coverage become risks; fully satisfied + verifiable ASRs become non-risks worth naming.

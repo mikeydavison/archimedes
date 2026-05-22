@@ -98,3 +98,5 @@ Context findings shape the rest of the review. Before producing the main review:
 For each gap, write it as:
 
 > **{Context element}** — currently **{absent / thin / unclear}**. Needed because **{what downstream review judgment depends on it}**. Suggested resolution: **{specific question to answer or section to add}**.
+
+Context findings — particularly missing business drivers, unstated assumptions, and unbounded scope — are also harvested into the Stage 6 risk synthesis (`references/risks.md`). They often surface as the highest-impact risks because they undermine every downstream judgment.

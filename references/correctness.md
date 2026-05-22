@@ -118,3 +118,5 @@ For each finding, write it as:
 > **{Claim}** ({where claimed in doc}) — **{materially incorrect / half-true / unverifiable / known true}**. Evidence: **{citation, math, or check performed}**. Impact if wrong: **{what breaks in the design}**. Suggested resolution: **{verify with source / restate with qualifications / redesign / remove the claim}**.
 
 Group related claims (e.g., several around the same messaging guarantee) so the architect can fix the root, not the individual symptoms.
+
+Correctness findings also feed the Stage 6 risk synthesis (`references/risks.md`). Materially incorrect and half-true claims become risks; verified claims that anchor risky parts of the design become non-risks worth naming.

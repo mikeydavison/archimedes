@@ -7,8 +7,20 @@
 ## Summary
 {{2–4 sentences. What the design proposes, and the overall verdict: ship / revise / rethink.}}
 
+## Risk Themes
+*Per `references/risks.md`. Each theme groups related risks by common root cause and ties to a business driver. Read this section to see the systemic concerns; drill into Detailed Findings → Risks & Themes for the underlying risks.*
+
+- **T-1: {{short name}}** ({{Blocker | Concern | Open Question}}) — {{one-line root cause}}. Threatens: {{business driver}}. Rolls up: {{R-1, R-3, R-7}}.
+
+*If risks don't cluster into a systemic theme, state that explicitly: "Risks are individually contained; no systemic theme identified."*
+
 ## Strengths
 - {{specific things the doc does well — be concrete; tag with originating analysis where relevant}}
+
+### Non-Risks
+*Decisions affirmatively validated as safe given current assumptions. Per `references/risks.md`.*
+
+- **NR-1:** {{decision}} validated against {{ASR}} — {{evidence: threshold + monitoring + response, verification path, or authoritative source}}. Stays a non-risk while {{load-bearing assumption}} holds.
 
 ## Blockers
 *Must be resolved before building.*
@@ -67,6 +79,10 @@ Each section below uses the per-finding line format defined in its reference. Om
 ### Optimality
 *Per `references/optimality.md` Deliverable.*
 {{Per-finding entries. If no findings, say so explicitly — "design is well-aligned with its prioritized ASRs" is a valid outcome.}}
+
+### Risks & Themes
+*Per `references/risks.md` Deliverable. Synthesis of findings across the analyses above.*
+{{Open with a one-line summary — count of risks, non-risks, and themes (e.g., "5 risks, 4 non-risks, 2 themes"). Then list per-risk entries in priority order, then per-theme entries referencing the risks by ID. Non-risks already appear under Strengths → Non-Risks above; don't repeat them here.}}
 
 ## Next Steps
 1. {{ordered list of what the architect should do next}}
