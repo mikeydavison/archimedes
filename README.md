@@ -51,3 +51,8 @@ archimedes/
 - Edit `references/*.md` to reflect your org's standards, tech stack, or domain. Each reference is intentionally scoped — e.g., `correctness.md` focuses on material errors in claims, `optimality.md` only on Pareto-improving or tradeoff-reframing alternatives. Preserve the scope when editing.
 - Edit `assets/review-template.md` to match your existing review format. Per-analysis line formats are defined in each reference's Deliverable section; keep them in sync if you rename template sections.
 - Edit the `description:` field in `SKILL.md` to adjust when Claude invokes the skill.
+
+## References
+
+- [ATAM: Method for Architecture Evaluation](https://www.sei.cmu.edu/library/atam-method-for-architecture-evaluation/) — Software Engineering Institute, Carnegie Mellon University
+- [IASA Global Education](https://education.iasaglobal.org/) — International Association of Software Architects
